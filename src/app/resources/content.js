@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Web3 Content Creator , Web3 Researcher',
     avatar:    '/images/avatar.png',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    location:  'Asia/Karachi',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Urdu']  // optional: Leave the array empty if you don't want to display languages
 }
 
