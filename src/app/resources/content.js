@@ -15,7 +15,7 @@ const person = {
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I am web3 researcher, content creator,Blockchain Enthusiast , and community Builder , committed to bring Pakistan onchain.</>
 }
 
 const social = [
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/razashozab44',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/muhammad-shozab-raza-2b1a55306/',
     },
     {
         name: 'X',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/NakamotoDrip',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:razashozab619@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Web3 Researcher,Content Creator and community builder</>,
+    subline: <>I'm NakamotoDrip aka Muhammad Shozab Raza, a Community Lead at <InlineCode>Base Pakistan</InlineCode>where I craft content<br/> and bring pakistan onchain. Also Working with <InlineCode>FrontierDAO Pakistan</InlineCode> as a content creator and social media manager.</>
 }
 
 const about = {
@@ -69,52 +69,116 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>I'm NakamotoDrip aka Muhammad Shozab Raza, a Community Lead at <InlineCode>Base Pakistan</InlineCode>where I craft content<br/> and bring pakistan onchain. Also Working with <InlineCode>FrontierDAO Pakistan</InlineCode> as a content creator and social media manager.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Base Pakistan',
+                timeframe: '2024 - Present',
+                role: 'Community Lead',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>committed To Bring pakistan on chain and spread awareness about web3</>,
+                    <>Host Hackathons , Meetups and educational bootcamps.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        src: '/images/projects/project-01/pakistan.png',
+                        alt: 'base pakistan',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'FrontierDAO Pakistan',
+                timeframe: '2024 - present',
+                role: 'Content Creator and Social Media manager',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>I currently work as a social media manager at FrontierDAO Pakistan and actively manage their socials.</>,
+                    <>I create valuable content for FrontierDAO Partners and Do Research about Viction Eco Partners and contribute with them .</>
                 ],
-                images: [ ]
+                images: [ 
+                    {
+                        src: '/images/projects/project-01/front.jpg',
+                        alt: 'FrontierDAO Pakistan',
+                        width: 16,
+                        height: 9
+                    }
+                ]
+            },
+            {
+                company: 'Edu4Teen',
+                timeframe: '2024 - present',
+                role: 'Founder',
+                achievements: [
+                    <>Edu4Teen is an Ai-powered Blockchain educational platfrom built for teenagers so they can reshape thier future in Blockchain.</>,
+                    
+                ],
+                images: [ 
+                    {
+                        src: '/images/projects/project-01/edu.png',
+                        alt: 'FrontierDAO Pakistan',
+                        width: 16,
+                        height: 9
+                    }
+                ]
+            },
+            {
+                company: 'Base Chain',
+                timeframe: '2024 - present',
+                role: 'Base Global Builder',
+                achievements: [
+                    <>I currently working as base Global Builder and actively contribute to base community</>,
+                    <>Building Base Pakistan.</>
+                ],
+                images: [ 
+                    {
+                        src: '/images/projects/project-01/basepak.png',
+                        alt: 'FrontierDAO Pakistan',
+                        width: 16,
+                        height: 9
+                    }
+                ]
+            },
+            {
+                company: 'Web3 Pakistan',
+                timeframe: '2024 - present',
+                role: 'Contributor',
+                achievements: [
+                    <>I currently working as a Contributor in web3 pakistan.</>,
+                    <>I create valuable content for web3 pakistan and do pr and outreach for them and do event management</>
+                ],
+                images: [ 
+                    {
+                        src: '/images/projects/project-01/web3pak.jpeg',
+                        alt: 'FrontierDAO Pakistan',
+                        width: 16,
+                        height: 9
+                    }
+                ]
             }
+            
         ]
+        
     },
     studies: {
         display: true, // set to false to hide this section
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Divisional Public School ',
+                description: <>Studying computer science.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Cyfrin Updraft',
+                description: <>Studying Blockchain Development.</>,
+            },
+            {
+                name: 'Data camp',
+                description: <>Studying Data science in web3.</>,
             }
         ]
     },
@@ -123,17 +187,17 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Content Creation',
+                description: <>Able to Create engaging web3 content on any topic</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/one.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
+                        src: '/images/projects/project-01/two.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -141,11 +205,23 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Community Building',
+                description: <>Building Web3 Communites From scratch and taking to next level</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
+                        src: '/images/projects/project-01/front.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/basepak.png',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/edu.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
