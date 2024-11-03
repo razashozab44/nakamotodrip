@@ -7,15 +7,15 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Web3 Content Creator , Web3 Researcher',
-    avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    avatar:    '/images/avatar.png',
+    location:  'Asia/Pakistan',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Urdu']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>I am Web3 Enthusiast, Content Creator, and community Builder.</>
 }
 
 const social = [
