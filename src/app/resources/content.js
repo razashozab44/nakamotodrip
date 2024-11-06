@@ -249,8 +249,8 @@ const work = {
 }
 
 const gallery = {
-    label: 'Gallery',
-    title: 'My photo gallery',
+    label: 'Content Gallery',
+    title: 'My Content gallery',
     description: `A photo collection by ${person.name}`,
     // Images from https://pexels.com
     images: [
