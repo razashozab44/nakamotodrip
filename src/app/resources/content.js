@@ -52,7 +52,7 @@ const home = {
 }
 
 const about = {
-    label: 'About',
+    label: 'Resume/Cv',
     title: 'About me',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
